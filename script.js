@@ -36,7 +36,7 @@ let sideThree = 6;
 //herrons implementation 
 
 let semiPerimeter = (sideOne + sideTwo + sideThree) / 2;
-let areaTriangle = Math.sqrt(semiPerimeter*(semiPerimeter-sideOne)*(semiPerimeter-sideTwo)*(semiPerimeter*sideThree));
+let areaTriangle = Math.sqrt(semiPerimeter*(semiPerimeter-sideOne)*(semiPerimeter-sideTwo)*(semiPerimeter-sideThree));
 console.log(areaTriangle);
 
 let radius = 7;
